@@ -1,0 +1,26 @@
+.skewed-button {
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    width: 135px;
+    padding: 10px 20px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 20px 0px 0px 63px;
+    transform: skew(336deg);
+  }
+
+  .skewed-button1 {
+    height: 40px;
+    width: 134px;
+    background-color: #fe0101;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 0px 51px 16px 0px;
+    transform: skew(158deg);
+  }
