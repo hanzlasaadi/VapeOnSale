@@ -24,126 +24,9 @@ function NewArrivals() {
   };
   return (
     <div>
-      <div className="" style={{ marginTop: 90 }}>
-        <h1 className="text-3xl font-bold text-center p-5">New Arrivals</h1>
+      <div className="mt-5">
+        <h1 className="text-3xl font-bold text-center">New Arrivals</h1>
 
-        {/* <div
-          id="carouselExampleControls"
-          className="carousel carousel-dark slide"
-          data-bs-ride="carousel"
-        >
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <div className="card-wrapper container-sm d-flex justify-content-around">
-                <div className="card border-0" style={{ width: "22rem" }}>
-                  <img
-                    src="https://ik.imagekit.io/p2slevyg1/c2.jpeg?updatedAt=1701355717698"
-                    className="card-img-top border"
-                    alt="..."
-                    height="300px"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      Fresh Menthol Mojito Crystal Bar 600 Disposable Vape
-                    </h5>
-                    <p className="text-danger">£4.49</p>
-                  </div>
-                </div>
-                <div className="card border-0" style={{ width: "22rem" }}>
-                  <img
-                    src="https://ik.imagekit.io/p2slevyg1/c9.jpeg?updatedAt=1701355717652"
-                    className="card-img-top border"
-                    alt="..."
-                    height="300px"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      Fresh Menthol Mojito Crystal Bar 600 Disposable Vape
-                    </h5>
-                    <p className="text-danger">£4.49</p>
-                  </div>
-                </div>
-                <div className="card border-0" style={{ width: "22rem" }}>
-                  <img
-                    src="https://ik.imagekit.io/p2slevyg1/c3.jpeg?updatedAt=1701355717647"
-                    className="card-img-top border"
-                    height="300px"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      Fresh Menthol Mojito Crystal Bar 600 Disposable Vape
-                    </h5>
-                    <p className="text-danger">£4.49</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="card-wrapper container-sm d-flex justify-content-around">
-                <div className="card border-0" style={{ width: "22rem" }}>
-                  <img
-                    src="https://ik.imagekit.io/p2slevyg1/c2.jpeg?updatedAt=1701355717698"
-                    className="card-img-top border"
-                    alt="..."
-                    height="300px"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      Fresh Menthol Mojito Crystal Bar 600 Disposable Vape
-                    </h5>
-                    <p className="text-danger">£4.49</p>
-                  </div>
-                </div>
-                <div className="card border-0" style={{ width: "22rem" }}>
-                  <img
-                    src="https://ik.imagekit.io/p2slevyg1/c9.jpeg?updatedAt=1701355717652"
-                    className="card-img-top border"
-                    alt="..."
-                    height="300px"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      Fresh Menthol Mojito Crystal Bar 600 Disposable Vape
-                    </h5>
-                    <p className="text-danger">£4.49</p>
-                  </div>
-                </div>
-                <div className="card border-0" style={{ width: "22rem" }}>
-                  <img
-                    src="https://ik.imagekit.io/p2slevyg1/c3.jpeg?updatedAt=1701355717647"
-                    className="card-img-top border"
-                    alt="..."
-                    height="300px"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      Fresh Menthol Mojito Crystal Bar 600 Disposable Vape
-                    </h5>
-                    <p className="text-danger">£4.49</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev"
-            >
-              <span className="carousel-control-prev-icon" aria-hidden="true" />
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="next"
-            >
-              <span className="carousel-control-next-icon" aria-hidden="true" />
-              <span className="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div> */}
         <Carousel responsive={responsive}>
           <div className="p-5">
             <img
@@ -154,7 +37,7 @@ function NewArrivals() {
             />
             <div className="card-body">
               <h5 className="card-title mt-3">
-              PEACH ICE SIKARY S600 DISPOSABLE VAPE
+                PEACH ICE SIKARY S600 DISPOSABLE VAPE
               </h5>
               <p className="text-danger ">£4.49</p>
             </div>
@@ -168,7 +51,7 @@ function NewArrivals() {
             />
             <div className="card-body">
               <h5 className="card-title mt-3">
-              BULL ICE SIKARY S600 DISPOSABLE VAPE
+                BULL ICE SIKARY S600 DISPOSABLE VAPE
               </h5>
               <p className="text-danger">£4.49</p>
             </div>
@@ -182,7 +65,7 @@ function NewArrivals() {
             />
             <div className="card-body">
               <h5 className="card-title mt-3">
-              KIWI PASSION SIKARY S600 DISPOSABLE VAPE
+                KIWI PASSION SIKARY S600 DISPOSABLE VAPE
               </h5>
               <p className="text-danger">£4.49</p>
             </div>
@@ -196,7 +79,7 @@ function NewArrivals() {
             />
             <div className="card-body">
               <h5 className="card-title mt-3">
-              TRIPLE MANGO SIKARY S600 DISPOSABLE VAPE
+                TRIPLE MANGO SIKARY S600 DISPOSABLE VAPE
               </h5>
               <p className="text-danger">£4.49</p>
             </div>

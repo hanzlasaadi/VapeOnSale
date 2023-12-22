@@ -2,8 +2,8 @@ import React from 'react'
 
 function Blogs() {
   return (
-    <div>
-       <div className="sec-box" style={{ marginTop: 100 }}>
+    <div className='mt-5'>
+       <div className="sec-box">
           <h1 className="text-3xl font-bold text-center p-5">Our Blog</h1>
           <br />
           <div
