@@ -19,8 +19,8 @@ const App = () => {
           <Route path="/productPage2" element={<ProductPage2 />} />
           <Route path="/singleProduct" element={<SingleProductPage3 />} />
           {/* <Route path="/checkout" element={<Checkout />} /> */}
-          <Route path="/login" element={<Login/>} />
-          <Route path="/register" element={<Register />} />
+          {/* <Route path="/login" element={<Login/>} /> */}
+          {/* <Route path="/register" element={<Register />} /> */}
         </Routes>
         <Fixed_Button />
       
