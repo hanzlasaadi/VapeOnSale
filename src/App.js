@@ -7,6 +7,11 @@ import ProductPage2 from "./Sub_Component/Page2/ProductPage2";
 import SingleProductPage3 from "./Sub_Component/Page3/SingleProductPage3";
 import Login from "./Sub_Component/Login";
 import Register from "./Sub_Component/Register";
+// import TradeListView from "./Sub_Component/Page5/TradeListView";
+import TradeGridView from "./Sub_Component/Page5/TradeGrideView";
+import TradeListView from "./Sub_Component/Page5/TradeListView";
+
+
 
 const App = () => {
   return (
@@ -18,6 +23,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/productPage2" element={<ProductPage2 />} />
           <Route path="/singleProduct" element={<SingleProductPage3 />} />
+          <Route path="/trade" element={<TradeGridView />}/>
+          <Route path="/listView" element={<TradeListView />}/>
           {/* <Route path="/checkout" element={<Checkout />} /> */}
           {/* <Route path="/login" element={<Login/>} /> */}
           {/* <Route path="/register" element={<Register />} /> */}

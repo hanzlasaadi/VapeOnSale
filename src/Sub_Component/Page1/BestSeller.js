@@ -35,9 +35,11 @@ function BestSeller() {
                       <b>Retail Price: {item.price}</b>
                     </button>
                   </Link>
+                  <Link to="/trade">
                   <button className="skewed-button1">
                     <b>Trade Button</b>
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
